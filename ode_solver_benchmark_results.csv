@@ -1,0 +1,9 @@
+problem,method,success,rtol,atol,nfev,njev,nlu,max_abs_state_error_vs_Radau_reference,runtime_seconds_single_run,message
+Van der Pol (mu=1),RK45,True,1e-06,1e-09,1436,0,0,2.377508296680375e-05,0.012793767000005118,The solver successfully reached the end of the integration interval.
+Van der Pol (mu=1),DOP853,True,1e-06,1e-09,1274,0,0,2.3468389631187137e-05,0.010829776999997875,The solver successfully reached the end of the integration interval.
+Van der Pol (mu=1),Radau,True,1e-06,1e-09,3767,43,270,7.047583081565278e-07,0.09626064799999767,The solver successfully reached the end of the integration interval.
+Van der Pol (mu=1),BDF,True,1e-06,1e-09,1646,1,98,6.66136805376194e-05,0.07259866299999373,The solver successfully reached the end of the integration interval.
+Van der Pol (mu=50),RK45,True,1e-06,1e-09,5378,0,0,3.3868913167089953e-08,0.04502605599999754,The solver successfully reached the end of the integration interval.
+Van der Pol (mu=50),DOP853,True,1e-06,1e-09,5885,0,0,7.270191765482159e-07,0.04646733699999572,The solver successfully reached the end of the integration interval.
+Van der Pol (mu=50),Radau,True,1e-06,1e-09,443,9,58,1.3094334105900884e-07,0.010642505999996388,The solver successfully reached the end of the integration interval.
+Van der Pol (mu=50),BDF,True,1e-06,1e-09,245,4,28,1.753243095814483e-06,0.011480641000005676,The solver successfully reached the end of the integration interval.
